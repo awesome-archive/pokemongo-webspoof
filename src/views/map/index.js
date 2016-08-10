@@ -12,7 +12,6 @@ import settings from '../../models/settings.js'
 import SpeedCounter from './speed-counter.js'
 import BooleanSettings from './boolean-settings.js'
 import Coordinates from './coordinates.js'
-import Bookmarks from './bookmarks.js'
 import SpeedLimit from './speed-limit.js'
 import Controls from './controls.js'
 import TotalDistance from './total-distance.js'
@@ -122,7 +121,6 @@ class Map extends Component {
 
         { /* controls, settings displayed on top of the map */ }
         <Coordinates />
-        <Bookmarks />
         <SpeedCounter />
         <SpeedLimit />
         <BooleanSettings />

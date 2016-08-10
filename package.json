@@ -24,7 +24,6 @@
     "electron-packager": "^7.3.0",
     "geocoder": "^0.2.2",
     "google-map-react": "^0.16.3",
-    "react-bootstrap": "^0.30.2",
     "tmp": "0.0.28"
   },
   "devDependencies": {
