@@ -1,3 +1,5 @@
+# This is a copy of [iam4x's pokemongo-webspoof repo](https://github.com/iam4x/pokemongo-webspoof). He wasn't maintaining pull requests as frequent as I like (and making builds based on commits) so I made this fork. It has the latest (tested) pull reqs and is built frequently
+
 # ![pikachu](./pikachu.gif) Pokémon GO - WebSpoof
 > Spoof your iOS device GPS location for Pokémon Go
 >
@@ -6,7 +8,7 @@
 ![Example](./example.gif)
 
 * :arrow_right: Download last release [pokemongo-webspoof.app.tar.gz (v1.2.0)](https://github.com/iam4x/pokemongo-webspoof/releases/download/v1.2.0/pokemongo-webspoof-v120.app.tar.gz)
-* :arrow_right: Changelog is available [here](https://github.com/iam4x/pokemongo-webspoof/releases)
+* :arrow_right: Changelog is available [here](https://github.com/bateller/pokemongo-webspoof/releases
 
 ## Features
 
@@ -51,8 +53,8 @@
 ## Develop
 
 * Download nodejs^6 (https://nodejs.org/en/)
-* `$ git clone git@github.com:iam4x/pokemongo-webspoof.git`
-* `$ cd pokemongo-webspoof && npm install`
+* `$ git clone git@github.com:bateller/pokemongo-webspoof.git`
+* `$ cd pokemongo-webspoof && npm cache clear && npm install`
 * `$ npm run dev`
 
 If you have an issue Xcode2 check https://github.com/iam4x/pokemongo-webspoof/issues/5#issuecomment-233669078
